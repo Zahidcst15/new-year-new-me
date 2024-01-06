@@ -1,0 +1,47 @@
+/* common related styles */
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner related styles */
+
+header{
+    background-image: url('../images/banner/banner3.png');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.banner-part{
+    text-align: right;
+    padding: 216px 230px 166px 876px;
+}
+
+.banner-title{
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 32px;
+}
+
+.banner-btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
