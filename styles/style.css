@@ -49,6 +49,7 @@ header{
 /* section related style */
 section{
     margin-top: 130px;
+    padding: 0 230px;
 }
 
 /* my failure part style */
@@ -93,4 +94,33 @@ section{
     line-height: 26px;
     margin-bottom: 8px;
     text-decoration: none;
+}
+
+/* my plane related style */
+
+.my-plan-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.my-plan-chart{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+}
+
+.element-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.element-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
