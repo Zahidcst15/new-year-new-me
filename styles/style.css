@@ -45,3 +45,52 @@ header{
     padding: 20px 25px;
     border-radius: 5px;
 }
+
+/* section related style */
+section{
+    margin-top: 130px;
+}
+
+/* my failure part style */
+
+.my-failures-part{
+    display: flex;
+    align-items: center;
+    width: 1072px;
+    margin: 0 auto;
+    gap: 87px;
+}
+
+.failures-part-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failures-part-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 16px;
+}
+
+.right-part > ul{
+    list-style-type: square;
+    
+}
+
+.bulet-point-list li{
+    color: #009322;
+   
+}
+
+
+.bulet-point-list li a{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
